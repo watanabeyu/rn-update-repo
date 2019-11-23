@@ -27,13 +27,13 @@ $ react-native unlink react-native-gesture-handler
 * react-native v0.60 auto link
 
 ### iOS
-* [`iOS-v0.61.4`](https://github.com/watanabeyu/rn-update-repo/tree/ios-v0.61.4)
-* [`iOS-v0.60.4`](https://github.com/watanabeyu/rn-update-repo/tree/ios-v0.60.4)
+* [`iOS-v0.61.4`](https://github.com/watanabeyu/rn-update-repo/tree/iOS-v0.61.4)
+* [`iOS-v0.60.4`](https://github.com/watanabeyu/rn-update-repo/tree/iOS-v0.60.4)
 
 ### Android
-* [`Android-v0.61.4`](https://github.com/watanabeyu/rn-update-repo/tree/android-v0.61.4)
+* [`Android-v0.61.4`](https://github.com/watanabeyu/rn-update-repo/tree/Android-v0.61.4)
   * API 28 necessary [this](https://github.com/facebook/react-native/issues/23380#issuecomment-473871592)
-* [`Android-v0.60.4`](https://github.com/watanabeyu/rn-update-repo/tree/android-v0.60.4)
+* [`Android-v0.60.4`](https://github.com/watanabeyu/rn-update-repo/tree/Android-v0.60.4)
 
 #### other
 
