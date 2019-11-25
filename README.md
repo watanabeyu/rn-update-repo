@@ -36,6 +36,16 @@ $ react-native unlink react-native-gesture-handler
 
 #### other
 
+##### Could not connect to development server after update
+* https://github.com/facebook/react-native/issues/23380#issuecomment-473871592
+* add `android:usesCleartextTraffic="true"` to `app/src/AndroidManifest.xml`
+```
+<application
+       ....
+       android:usesCleartextTraffic="true"
+       android:theme="@style/AppTheme">
+```
+
 ##### task wrapper(type: Wrapper) -> wrapper
 * `wrapper` error in `build.gradle`.
 ```
