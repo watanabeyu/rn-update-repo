@@ -12,6 +12,9 @@ $ npm run start
 $ npm run android
 ```
 
+## react-native v0.61.4 -> v0.63.2
+* diff -> https://react-native-community.github.io/upgrade-helper/?from=0.61.4&to=0.63.2
+
 ## react-native v0.60.4 -> v0.61.4
 * diff -> https://react-native-community.github.io/upgrade-helper/?from=0.60.4&to=0.61.4
 
@@ -35,6 +38,37 @@ $ react-native unlink react-native-gesture-handler
 * [`Android-v0.60.4`](https://github.com/watanabeyu/rn-update-repo/tree/Android-v0.60.4)
 
 #### other
+
+##### Invariant Violation: "main" has not been registered. or Invariant Violation: "RNUpdateRepo" has not been registered.
+* if use `import { registerRootComponent } from 'expo'`, error happend on android.
+* if use `AppRegistry.registerComponent`, error happend on ios.
+* So decided to take it all out.
+
+##### Could not find or use auto-linked library 'swiftObjectiveC' any other
+img
+* check Project > Build Settings > Library Search Paths
+* if blank here, add below params
+
+```
+"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"
+"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)"
+"$(inherited)"
+```
+
+##### Undefined symbol: _swift_getFunctionReplacement
+img
+* check Project > Build Settings > Preprocessor Macros
+* add `FB_SONARKIT_ENABLED=1` DEBUG value
+
+img
+* check TARGETS > Build Settings > Dead Code Stripping
+* Dead Code Stripping = `YES`
+
+##### This copy of libswiftCore.dylib requires an OS version prior to 12.2.0.
+* Add New file Swift File
+* Would you like to show configure an Objective-C bridging header? -> `Create Bridging Header`
+* check Project > Build Settings > Always Embed Swift Standard Libraries
+* set `YES`
 
 ##### Could not connect to development server after update
 * https://github.com/facebook/react-native/issues/23380#issuecomment-473871592
