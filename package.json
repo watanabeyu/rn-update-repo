@@ -9,13 +9,17 @@
   },
   "dependencies": {
     "expo": "^38.0.9",
+    "expo-splash-screen": "^0.5.0",
+    "expo-status-bar": "^1.0.2",
+    "expo-updates": "^0.2.14",
     "react": "16.13.1",
     "react-dom": "^16.13.1",
-    "react-native-web": "^0.13.5",
     "react-native": "0.63.2",
     "react-native-gesture-handler": "~1.7.0",
     "react-native-reanimated": "~1.11.0",
-    "react-native-unimodules": "~0.10.1"
+    "react-native-screens": "^2.10.1",
+    "react-native-unimodules": "~0.10.1",
+    "react-native-web": "^0.13.5"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
