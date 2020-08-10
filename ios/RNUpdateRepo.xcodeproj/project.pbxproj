@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNUpdateRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNUpdateRepoTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1D48FC83BD02B565BE0EC9AA /* libPods-RNUpdateRepoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CC35C396EF0037206B3F7F /* libPods-RNUpdateRepoTests.a */; };
+		1433ACB51BD5A1792E0F7209 /* libPods-RNUpdateRepo-RNUpdateRepoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DA5F11972A7F844B37B12 /* libPods-RNUpdateRepo-RNUpdateRepoTests.a */; };
+		70A08EAE24E1B1F000D8C9D5 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A08EAD24E1B1F000D8C9D5 /* SplashScreen.storyboard */; };
+		70A08EB124E1BA5900D8C9D5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A08EB024E1BA5900D8C9D5 /* File.swift */; };
 		BFA83119B1F3332696D359A7 /* libPods-RNUpdateRepo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A634269BCA50A987700ED93 /* libPods-RNUpdateRepo.a */; };
 /* End PBXBuildFile section */
 
@@ -34,17 +35,21 @@
 		13B07F961A680F5B00A75B9A /* RNUpdateRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNUpdateRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNUpdateRepo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNUpdateRepo/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNUpdateRepo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNUpdateRepo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNUpdateRepo/main.m; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		70583D5C6372FA5C8959570C /* Pods-RNUpdateRepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUpdateRepo.debug.xcconfig"; path = "Target Support Files/Pods-RNUpdateRepo/Pods-RNUpdateRepo.debug.xcconfig"; sourceTree = "<group>"; };
+		70A08EAD24E1B1F000D8C9D5 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = RNUpdateRepo/SplashScreen.storyboard; sourceTree = "<group>"; };
+		70A08EAF24E1BA5800D8C9D5 /* RNUpdateRepo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNUpdateRepo-Bridging-Header.h"; sourceTree = "<group>"; };
+		70A08EB024E1BA5900D8C9D5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		82EDBF1DC8BD579637ABFEFF /* Pods-RNUpdateRepoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUpdateRepoTests.debug.xcconfig"; path = "Target Support Files/Pods-RNUpdateRepoTests/Pods-RNUpdateRepoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A634269BCA50A987700ED93 /* libPods-RNUpdateRepo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNUpdateRepo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F4E4056430983EF2A4E9EF /* Pods-RNUpdateRepo-RNUpdateRepoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUpdateRepo-RNUpdateRepoTests.debug.xcconfig"; path = "Target Support Files/Pods-RNUpdateRepo-RNUpdateRepoTests/Pods-RNUpdateRepo-RNUpdateRepoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7C26114944ED00ABCAEA166 /* Pods-RNUpdateRepo-RNUpdateRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUpdateRepo-RNUpdateRepoTests.release.xcconfig"; path = "Target Support Files/Pods-RNUpdateRepo-RNUpdateRepoTests/Pods-RNUpdateRepo-RNUpdateRepoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF9DA5F11972A7F844B37B12 /* libPods-RNUpdateRepo-RNUpdateRepoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNUpdateRepo-RNUpdateRepoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29307886B3BAA44BD1CFF12 /* Pods-RNUpdateRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUpdateRepoTests.release.xcconfig"; path = "Target Support Files/Pods-RNUpdateRepoTests/Pods-RNUpdateRepoTests.release.xcconfig"; sourceTree = "<group>"; };
 		D36CE81D7AEE8B017F2774A1 /* Pods-RNUpdateRepo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUpdateRepo.release.xcconfig"; path = "Target Support Files/Pods-RNUpdateRepo/Pods-RNUpdateRepo.release.xcconfig"; sourceTree = "<group>"; };
-		E0CC35C396EF0037206B3F7F /* libPods-RNUpdateRepoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNUpdateRepoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -54,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D48FC83BD02B565BE0EC9AA /* libPods-RNUpdateRepoTests.a in Frameworks */,
+				1433ACB51BD5A1792E0F7209 /* libPods-RNUpdateRepo-RNUpdateRepoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,13 +94,15 @@
 		13B07FAE1A68108700A75B9A /* RNUpdateRepo */ = {
 			isa = PBXGroup;
 			children = (
+				70A08EAD24E1B1F000D8C9D5 /* SplashScreen.storyboard */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				70A08EB024E1BA5900D8C9D5 /* File.swift */,
+				70A08EAF24E1BA5800D8C9D5 /* RNUpdateRepo-Bridging-Header.h */,
 			);
 			name = RNUpdateRepo;
 			sourceTree = "<group>";
@@ -107,7 +114,7 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				9A634269BCA50A987700ED93 /* libPods-RNUpdateRepo.a */,
-				E0CC35C396EF0037206B3F7F /* libPods-RNUpdateRepoTests.a */,
+				BF9DA5F11972A7F844B37B12 /* libPods-RNUpdateRepo-RNUpdateRepoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,8 +157,9 @@
 				D36CE81D7AEE8B017F2774A1 /* Pods-RNUpdateRepo.release.xcconfig */,
 				82EDBF1DC8BD579637ABFEFF /* Pods-RNUpdateRepoTests.debug.xcconfig */,
 				C29307886B3BAA44BD1CFF12 /* Pods-RNUpdateRepoTests.release.xcconfig */,
+				A2F4E4056430983EF2A4E9EF /* Pods-RNUpdateRepo-RNUpdateRepoTests.debug.xcconfig */,
+				B7C26114944ED00ABCAEA166 /* Pods-RNUpdateRepo-RNUpdateRepoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -166,6 +174,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				47259CF0A062E6A2088D6051 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +196,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				87728E446D6BE7D9A5FF6F59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +220,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1130;
+					};
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNUpdateRepo" */;
@@ -217,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -244,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				70A08EAE24E1B1F000D8C9D5 /* SplashScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +279,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		47259CF0A062E6A2088D6051 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNUpdateRepo-RNUpdateRepoTests/Pods-RNUpdateRepo-RNUpdateRepoTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNUpdateRepo-RNUpdateRepoTests/Pods-RNUpdateRepo-RNUpdateRepoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6C87A42931ED512BCB3A9F1C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,11 +312,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNUpdateRepoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNUpdateRepo-RNUpdateRepoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87728E446D6BE7D9A5FF6F59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNUpdateRepo/Pods-RNUpdateRepo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNUpdateRepo/Pods-RNUpdateRepo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCB9A89F48658F1843A0F8B8 /* [CP] Check Pods Manifest.lock */ = {
@@ -344,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				70A08EB124E1BA5900D8C9D5 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,23 +409,12 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = RNUpdateRepo;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82EDBF1DC8BD579637ABFEFF /* Pods-RNUpdateRepoTests.debug.xcconfig */;
+			baseConfigurationReference = A2F4E4056430983EF2A4E9EF /* Pods-RNUpdateRepo-RNUpdateRepoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -396,8 +436,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C29307886B3BAA44BD1CFF12 /* Pods-RNUpdateRepoTests.release.xcconfig */;
+			baseConfigurationReference = B7C26114944ED00ABCAEA166 /* Pods-RNUpdateRepo-RNUpdateRepoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RNUpdateRepoTests/Info.plist;
@@ -419,9 +460,11 @@
 			baseConfigurationReference = 70583D5C6372FA5C8959570C /* Pods-RNUpdateRepo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = RNUpdateRepo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -430,6 +473,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNUpdateRepo;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNUpdateRepo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -439,8 +485,10 @@
 			baseConfigurationReference = D36CE81D7AEE8B017F2774A1 /* Pods-RNUpdateRepo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = RNUpdateRepo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -449,6 +497,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNUpdateRepo;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNUpdateRepo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -456,6 +506,7 @@
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -491,6 +542,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1\n",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -500,6 +552,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -509,6 +567,7 @@
 		83CBBA211A601CBA00E9B192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -546,6 +605,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
