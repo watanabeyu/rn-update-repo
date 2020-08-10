@@ -14,13 +14,13 @@ $ npm run android
 
 ## react-native v0.61.4 -> v0.63.2
 * diff -> https://react-native-community.github.io/upgrade-helper/?from=0.61.4&to=0.63.2
-* compare -> https://github.com/watanabeyu/rn-update-repo/compare/iOS-v0.61.4...iOS-v0.63.2
+* compare -> https://github.com/watanabeyu/rn-update-repo/compare/v0.61.4...v0.63.2
 * react-native-unimodules v0.10.1
 * react-native v0.63.2
 
 ## react-native v0.60.4 -> v0.61.4
 * diff -> https://react-native-community.github.io/upgrade-helper/?from=0.60.4&to=0.61.4
-* compare -> https://github.com/watanabeyu/rn-update-repo/compare/iOS-v0.60.4...iOS-v0.61.4
+* compare -> https://github.com/watanabeyu/rn-update-repo/compare/v0.60.4...v0.61.4
 * react-native-unimodules v0.7.0-rc.4
 * react-native v0.61.4
 
