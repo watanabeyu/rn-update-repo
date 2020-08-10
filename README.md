@@ -14,28 +14,20 @@ $ npm run android
 
 ## react-native v0.61.4 -> v0.63.2
 * diff -> https://react-native-community.github.io/upgrade-helper/?from=0.61.4&to=0.63.2
+* compare -> https://github.com/watanabeyu/rn-update-repo/compare/iOS-v0.61.4...iOS-v0.63.2
+* react-native-unimodules v0.10.1
+* react-native v0.63.2
 
 ## react-native v0.60.4 -> v0.61.4
 * diff -> https://react-native-community.github.io/upgrade-helper/?from=0.60.4&to=0.61.4
+* compare -> https://github.com/watanabeyu/rn-update-repo/compare/iOS-v0.60.4...iOS-v0.61.4
+* react-native-unimodules v0.7.0-rc.4
+* react-native v0.61.4
 
 ## react-native v0.59.8 -> v0.60.4
 * diff -> https://react-native-community.github.io/upgrade-helper/?from=0.59.8&to=0.60.4
-
-### common
-```
-$ react-native unlink react-native-reanimated
-$ react-native unlink react-native-gesture-handler
-```
-* react-native >= v0.60 auto link
-
-### iOS
-* [`iOS-v0.61.4`](https://github.com/watanabeyu/rn-update-repo/tree/iOS-v0.61.4)
-* [`iOS-v0.60.4`](https://github.com/watanabeyu/rn-update-repo/tree/iOS-v0.60.4)
-
-### Android
-* [`Android-v0.61.4`](https://github.com/watanabeyu/rn-update-repo/tree/Android-v0.61.4)
-  * API 28 necessary [this](https://github.com/facebook/react-native/issues/23380#issuecomment-473871592)
-* [`Android-v0.60.4`](https://github.com/watanabeyu/rn-update-repo/tree/Android-v0.60.4)
+* react-native-unimodules v0.5.2
+* react-native v0.60.4
 
 #### other
 
