@@ -29,17 +29,20 @@ $ npm run android
 * react-native-unimodules v0.5.2
 * react-native v0.60.4
 
-#### other
+### error
 
-##### Invariant Violation: "main" has not been registered. or Invariant Violation: "RNUpdateRepo" has not been registered.
+#### Invariant Violation: "main" has not been registered. or Invariant Violation: "RNUpdateRepo" has not been registered.
 * if use `import { registerRootComponent } from 'expo'`, error happend on android.
 * if use `AppRegistry.registerComponent`, error happend on ios.
 * So decided to take it all out.
 
-##### Could not find or use auto-linked library 'swiftObjectiveC' any other
-img
+#### Could not find or use auto-linked library 'swiftObjectiveC' any other
+![swiftObjectiveC](./extra/swiftobjectivec.jpg "swiftObjectiveC")
+
 * check Project > Build Settings > Library Search Paths
 * if blank here, add below params
+
+![searchpaths](./extra/searchpaths.jpg "searchpaths")
 
 ```
 "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"
@@ -47,22 +50,25 @@ img
 "$(inherited)"
 ```
 
-##### Undefined symbol: _swift_getFunctionReplacement
-img
+#### Undefined symbol: _swift_getFunctionReplacement
+![macros](./extra/macros.jpg "macros")
 * check Project > Build Settings > Preprocessor Macros
 * add `FB_SONARKIT_ENABLED=1` DEBUG value
 
-img
+![deadcode](./extra/deadcode.jpg "deadcode")
 * check TARGETS > Build Settings > Dead Code Stripping
 * Dead Code Stripping = `YES`
 
-##### This copy of libswiftCore.dylib requires an OS version prior to 12.2.0.
+#### This copy of libswiftCore.dylib requires an OS version prior to 12.2.0.
+![swift](./extra/swift.jpg "swift")
+![swiftstandard](./extra/swiftstandard.jpg "swiftstandard")
+
 * Add New file Swift File
 * Would you like to show configure an Objective-C bridging header? -> `Create Bridging Header`
 * check Project > Build Settings > Always Embed Swift Standard Libraries
 * set `YES`
 
-##### Could not connect to development server after update
+#### Could not connect to development server after update
 * https://github.com/facebook/react-native/issues/23380#issuecomment-473871592
 * add `android:usesCleartextTraffic="true"` to `app/src/AndroidManifest.xml`
 ```
@@ -72,14 +78,14 @@ img
        android:theme="@style/AppTheme">
 ```
 
-##### task wrapper(type: Wrapper) -> wrapper
+#### task wrapper(type: Wrapper) -> wrapper
 * `wrapper` error in `build.gradle`.
 ```
 - task wrapper(type: Wrapper) {
 + wrapper {
 ```
 
-##### local.properties error
+#### local.properties error
 ```
 * What went wrong:
 A problem occurred configuring project ':app'.
@@ -87,7 +93,7 @@ A problem occurred configuring project ':app'.
 ```
 * fix -> open android studio
 
-##### debug.keystore not found for signing config 'debug'.
+#### debug.keystore not found for signing config 'debug'.
 ```
 * What went wrong:
 Execution failed for task ':app:validateSigningDebug'.
